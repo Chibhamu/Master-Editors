@@ -1,0 +1,78 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul, ol, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f; /* navy */
+    color: white;
+}
+
+/* Header and Footer styles */
+header, footer {
+    background-color: #0074D9; /* navy green */
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: white;
+}
+
+/* Main section padding */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+/* Form styles */
+form {
+    margin-bottom: 10px; /* Add spacing between forms */
+}
+
+/* Label styles */
+label {
+    display: block; /* Display labels in block */
+    margin-bottom: 5px; /* Add spacing between labels */
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Take up full width */
+    padding: 8px;
+    margin-bottom: 10px; /* Add spacing between input fields */
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 4px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px; /* Add padding */
+    background-color: #4CAF50; /* green */
+    color: white;
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* darker green on hover */
+}
+
+/* Comment box styles */
+.comment-box {
+    background-color: #f9f9f9; /* light gray background */
+    padding: 20px;
+    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ddd; /* Add border */
+}
